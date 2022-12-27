@@ -1,0 +1,9 @@
+name: mouse-pointer-controller
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - pip
+  - python=3.8
+  - pip:
+    - -r requirements.txt
